@@ -28,9 +28,9 @@ public class Instasteps {
 
 	@When("User enters all Mandatory fields.")
 	public void user_enters_all_mandatory_fields() {
-	   driver.findElement(By.cssSelector("[name=\"emailOrPhone\"]")).sendKeys("Steverg9e9i07@gmail.com");
+	   driver.findElement(By.cssSelector("[name=\"emailOrPhone\"]")).sendKeys("Steverg9r3f07@gmail.com");
 	   driver.findElement(By.cssSelector("[name=\"fullName\"]")).sendKeys("Steve Rogers");
-	   driver.findElement(By.cssSelector("[name=\"username\"]")).sendKeys("Captaind2ewnica");
+	   driver.findElement(By.cssSelector("[name=\"username\"]")).sendKeys("Captafrind2ewnica");
 	   driver.findElement(By.cssSelector("[name=\"password\"]")).sendKeys("Steve@777");	   
 	}
 
